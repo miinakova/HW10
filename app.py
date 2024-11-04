@@ -9,7 +9,7 @@ df = pd.read_csv('C:\\Users\\miiin\\miinakova\\webmapping\\HW10\\service_311.csv
 
 
 app = dash.Dash()
-
+server = app.server
 
 app.layout = html.Div([
     html.Div(children='Hello World', style={'color': 'red'}), 
